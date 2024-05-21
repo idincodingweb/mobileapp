@@ -16,7 +16,7 @@ Jika Anda memiliki pertanyaan atau ingin berkolaborasi, jangan ragu untuk menghu
 - instagram : Idin_xml
 
 ## Live view
-Demo : https://idincodingweb.github.io/
+Demo : https://idincodingweb.github.io/mobileapp
 
 ## 🌟 Ikuti Saya
 Untuk pembaruan lebih lanjut dan untuk melihat apa yang saya kerjakan:
