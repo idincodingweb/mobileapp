@@ -1,0 +1,24 @@
+/* Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024 */
+
+/* Style untuk ikon cuaca */
+.weather-icon img {
+  width: 100px; /* Atur lebar ikon cuaca */
+  height: auto; /* Tinggi akan menyesuaikan secara otomatis */
+  display: block; /* Untuk menghilangkan space di bawah gambar */
+  margin: 0 auto; /* Untuk mengatur ikon di tengah secara horizontal */
+}
+
+/* Style responsif untuk ikon cuaca pada layar yang lebih kecil */
+@media (max-width: 768px) {
+  .weather-icon img {
+    width: 80px; /* Ukuran ikon yang lebih kecil untuk layar yang lebih kecil */
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-icon img {
+    width: 60px; /* Ukuran ikon yang lebih kecil lagi untuk layar yang sangat kecil */
+  }
+}

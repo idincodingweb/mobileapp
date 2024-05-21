@@ -1,0 +1,87 @@
+/* Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024 */
+
+/* Style untuk bagian About */
+.about-section {
+  background-color: #0f1117;
+  padding: 40px;
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content h1 {
+  color: #333;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  color: #666;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.about-author {
+  margin-top: 40px;
+}
+
+.about-author h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-author p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Style untuk ikon media sosial */
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-icons a i {
+  font-size: 1.5em;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: #007bff;
+}
+
+/* Menggunakan Font Awesome untuk ikon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  color: #e4405f;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-youtube {
+  color: #FF0000;
+}

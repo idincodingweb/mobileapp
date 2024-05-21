@@ -1,0 +1,66 @@
+/* Author : Idin Iskandar
+Template : Landing page phone store 
+created at : 07 Mei 2024 */
+
+/* Style untuk Widget Cuaca */
+.weather-widget {
+  background-color: #0f1117;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.weather-header h2 {
+  color: #333333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.weather-info {
+  color: #666666;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.weather-temp #temperature {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.weather-desc #description,
+.weather-location #location {
+  font-size: 1em;
+}
+
+.weather-footer {
+  text-align: center;
+}
+
+.btn-weather {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.btn-weather:hover {
+  background-color: #0056b3;
+}
+
+/* Menggunakan Flexbox untuk mengatur posisi widget di tengah */
+.content {
+  display: flex;
+  justify-content: center; /* Horisontal tengah */
+  align-items: center; /* Vertikal tengah */
+  height: 100vh; /* Tinggi konten sama dengan tinggi viewport */
+  width: 100vw; /* Lebar konten sama dengan lebar viewport */
+}
+
+/* Tidak perlu mengatur margin pada .weather-widget lagi */
+.weather-widget {
+  margin: 0; /* Menghilangkan margin default */
+}
